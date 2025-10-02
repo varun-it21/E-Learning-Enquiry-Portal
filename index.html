@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learnify</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+</head>
+<body>
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="earnify.png" alt="Logo" width="50" height="30" class="d-inline-block align-text-top">
+      Learnify
+    </a>
+  <ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link "href="index.html">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="course.html">Courses</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="blogs.html">Blogs</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="contact.html">Contact</a>
+  </li>
+  </ul>
+  </div>
+</nav>
+
+<!-- <div class="container"> -->
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <!-- <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="Untitled design (21).png" class="d-block w-100" style="height:650px; " alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <!-- <h5>First slide label</h5> -->
+        <p style="color: white;">“Learn Anywhere, Achieve Everywhere.”</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="Untitled design (22).png" class="d-block w-100" style="height:650px; " alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <!-- <h5>Second slide label</h5> -->
+        <p style="color: white;">“From Beginner to Pro – We’ve Got You Covered.”</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div><br><br><br>
+
+<div class="container">
+  <h1 class="text-center mb-4">Explore Top Courses</h1>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+
+    <!-- Card 1 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="web.jpg" class="card-img-top" alt="Web Development">
+        <div class="card-body">
+          <h5 class="card-title">Web Development</h5>
+          <p class="card-text">Learn HTML, CSS, JavaScript, and Bootstrap to create responsive websites.</p>
+          <a href="#" class="btn btn-primary">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="python.jpg" class="card-img-top" alt="Python Programming">
+        <div class="card-body">
+          <h5 class="card-title">Python Programming</h5>
+          <p class="card-text">Master Python basics, data structures, and libraries to build powerful applications.</p>
+          <a href="#" class="btn btn-primary">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="datasci.jpg" class="card-img-top" alt="Data Science">
+        <div class="card-body">
+          <h5 class="card-title">Data Science</h5>
+          <p class="card-text">Learn data analysis, visualization, and machine learning with real-world projects.</p>
+          <a href="#" class="btn btn-primary">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="ui.jpg" class="card-img-top" alt="UI/UX Design">
+        <div class="card-body">
+          <h5 class="card-title">UI/UX Design</h5>
+          <p class="card-text">Explore design principles, wireframing, and prototyping for user-friendly interfaces.</p>
+          <a href="#" class="btn btn-primary">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="java.jpg" class="card-img-top" alt="Java Programming">
+        <div class="card-body">
+          <h5 class="card-title">Java Programming</h5>
+          <p class="card-text">Understand OOP concepts and build console + GUI apps using Java.</p>
+          <a href="#" class="btn btn-primary">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="cyber.jpg" class="card-img-top" alt="Cyber Security">
+        <div class="card-body">
+          <h5 class="card-title">Cyber Security</h5>
+          <p class="card-text">Learn ethical hacking, network security, and tools to protect digital assets.</p>
+          <a href="#" class="btn btn-primary">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br><br>
+  <div class="text-center">
+    <a href="course.html" class="btn btn-outline-primary">View More Courses</a>
+    <!-- <button type="button" class="btn btn-outline-primary" ></button> -->
+  </div>
+</div>
+
+<br><br><br>
+<div class="container my-5">
+  <h2 class="text-center mb-4">Courses & Categories</h2>
+  <div class="row row-cols-1 row-cols-md-6 g-4">
+
+    <!-- Finance & Accounting -->
+    <div class="col">
+      <div class="card text-center h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Finance & Accounting</h5>
+          <p class="card-text">75 Courses</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Business & Management -->
+    <div class="col">
+      <div class="card text-center h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Business & Management</h5>
+          <p class="card-text">96 Courses</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Creative Arts & Design -->
+    <div class="col">
+      <div class="card text-center h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Creative Arts & Design</h5>
+          <p class="card-text">120 Courses</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Personal Development -->
+    <div class="col">
+      <div class="card text-center h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Personal Development</h5>
+          <p class="card-text">751 Courses</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Health & Wellness -->
+    <div class="col">
+      <div class="card text-center h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Health & Wellness</h5>
+          <p class="card-text">23 Courses</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Science & Engineering -->
+    <div class="col">
+      <div class="card text-center h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Science & Engineering</h5>
+          <p class="card-text">16 Courses</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div><br><br><br>
+
+
+<div class="container my-5" style="background-color: #FFF6F0;">
+  <div class="row align-items-center">
+    <h1>Our Mentors</h1>
+    <!-- Left Content -->
+    <div class="col-md-6">
+  <h2>Meet our</h2>
+  <h2>Highly Skilled</h2>
+  <h2>Mentors</h2>
+
+  <div class="stats">
+    <div class="stat">
+      <h3>1.2M+</h3>
+      <p>Students Enrolled</p>
+    </div>
+    <div class="stat">
+      <h3>32.2K+</h3>
+      <p>Classes Completed</p>
+    </div>
+    <div class="stat">
+      <h3>99.9%</h3>
+      <p>Satisfaction Rate</p>
+    </div>
+  </div>
+</div>
+
+    
+    <!-- Right Images (2x3 Grid) -->
+    <div class="col-md-6">
+  <div class="row g-3" style="margin-top: 30px; margin-bottom: 30px;">
+
+    <!-- Category 1 -->
+    <div class="col-4">
+      <div class="card shadow rounded h-100">
+        <img src="download (1).png" class="card-img-top img-fluid" alt="Category 1">
+        <div class="card-body text-center p-2">
+          <h6 class="card-title mb-0">Finance & Accounting</h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- Category 2 -->
+    <div class="col-4">
+      <div class="card shadow rounded h-100">
+        <img src="download (2).png" class="card-img-top img-fluid" alt="Category 2">
+        <div class="card-body text-center p-2">
+          <h6 class="card-title mb-0">Data Science</h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- Category 3 -->
+    <div class="col-4">
+      <div class="card shadow rounded h-100">
+        <img src="download (3).png" class="card-img-top img-fluid" alt="Category 3">
+        <div class="card-body text-center p-2">
+          <h6 class="card-title mb-0">Web Development</h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- Category 4 -->
+    <div class="col-4">
+      <div class="card shadow rounded h-100">
+        <img src="download (4).png" class="card-img-top img-fluid" alt="Category 4">
+        <div class="card-body text-center p-2">
+          <h6 class="card-title mb-0">Graphic Design</h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- Category 5 -->
+    <div class="col-4">
+      <div class="card shadow rounded h-100">
+        <img src="download (5).png" class="card-img-top img-fluid" alt="Category 5">
+        <div class="card-body text-center p-2">
+          <h6 class="card-title mb-0">Marketing</h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- Category 6 -->
+    <div class="col-4">
+      <div class="card shadow rounded h-100">
+        <img src="download.png" class="card-img-top img-fluid" alt="Category 6">
+        <div class="card-body text-center p-2">
+          <h6 class="card-title mb-0">Coding Instructor</h6>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+  </div>
+</div>
+
+<div class="container my-5">
+  <h2 class="text-center mb-4">Student Testimonials</h2>
+
+  <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Review 1 -->
+      <div class="carousel-item active">
+        <div class="text-center">
+          <img src="anil-sharma-oMdoUPCutIg-unsplash.jpg" class="rounded-circle shadow mb-3" 
+               style="width:120px; height:120px; object-fit:cover;" alt="Student 1">
+          <p class="lead">"Learnify helped me improve my coding skills. The mentors are excellent and the community is supportive."</p>
+          <h5 class="fw-bold">David Martinez</h5>
+          <small class="text-muted">Marketing Student</small><br>
+          ⭐⭐⭐⭐⭐
+        </div>
+      </div>
+
+      <!-- Review 2 -->
+      <div class="carousel-item">
+        <div class="text-center">
+          <img src="fotos-Sm4_1hjygVI-unsplash.jpg" class="rounded-circle shadow mb-3" 
+               style="width:120px; height:120px; object-fit:cover;" alt="Student 2">
+          <p class="lead">"The finance & accounting courses are top-notch. The real-world examples made learning so easy."</p>
+          <h5 class="fw-bold">Emily Chen</h5>
+          <small class="text-muted">Finance Student</small><br>
+          ⭐⭐⭐⭐⭐
+        </div>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="carousel-item">
+        <div class="text-center">
+          <img src="saung-digital-MRQFatc33cw-unsplash.jpg" class="rounded-circle shadow mb-3" 
+               style="width:120px; height:120px; object-fit:cover;" alt="Student 3">
+          <p class="lead">"Great platform with flexible learning. I could study at my own pace and still get mentor guidance."</p>
+          <h5 class="fw-bold">Michael Thompson</h5>
+          <small class="text-muted">Data Science Student</small><br>
+          ⭐⭐⭐⭐⭐
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Slide buttons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bg-dark rounded-circle p-3"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon bg-dark rounded-circle p-3"></span>
+    </button>
+  </div>
+</div>
+</div>
+
+<footer class="bg-success text-light pt-5 pb-3">
+  <div class="container">
+    <div class="row">
+
+      <!-- Logo & About -->
+      <div class="col-md-4 mb-4">
+        <h3 class="fw-bold">Learnify</h3>
+        <p>Empowering students worldwide with top-notch courses and expert mentors.  
+        Learn, grow, and achieve your dreams with us.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Courses</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Mentors</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Testimonials</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact & Social -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">Contact</h5>
+        <p>Email: support@learnify.com</p>
+        <p>Phone: +91 98765 43210</p>
+        
+        <!-- Social icons -->
+        <div class="d-flex gap-3 mt-3">
+          <a href="#" class="text-light fs-4"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-light fs-4"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-light fs-4"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-light fs-4"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom -->
+    <div class="text-center mt-4">
+      <hr class="border-light">
+      <p class="mb-0">&copy; 2025 Learnify. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>

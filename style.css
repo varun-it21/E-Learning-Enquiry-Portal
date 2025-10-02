@@ -1,0 +1,111 @@
+.navbar .nav-link:hover {
+  color: rgb(3, 228, 3) !important;
+  transition: 0.3s;
+}
+
+/* Make carousel images responsive and cover screen */
+.carousel-item img {
+  height: 60%;              /* 60% of screen height */
+  object-fit: cover;         /* Crop without distortion */
+}
+
+/* Adjust card images */
+.card-img-top {
+  height: 200px;             /* Fixed height for equal cards */
+  object-fit: cover;         /* Crop neatly */
+}
+
+/* Section heading alignment */
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.col-md-6 h2 {
+  font-size: 3.5rem;       /* much larger */
+  font-weight: 800;        /* extra bold */
+  color: #222;
+  margin: 0;
+  line-height: 1.1;
+  font-family: 'Poppins', sans-serif; /* stylish font */
+  letter-spacing: -1px;
+}
+
+.col-md-6 h2:first-child {
+  color: #007bff; /* highlight first heading */
+}
+
+.stats {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat h3 {
+  font-size: 2.2rem;       /* larger numbers */
+  font-weight: 700;
+  color: #007bff;          /* highlight numbers */
+  margin-bottom: 8px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.stat p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #444;
+  margin: 0;
+}
+
+.card {
+  transition: all 0.3s ease;
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #00a85c);
+  color: #fff;
+}
+
+.card:hover .card-title,
+.card:hover .card-text {
+  color: #fff;
+}
+
+    
+
+.enroll-card {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+h2 {
+  color: #0d6efd;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+}
