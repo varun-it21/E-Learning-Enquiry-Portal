@@ -20,4 +20,4 @@ It allows users to explore courses and submit enquiries through a simple form.
 - **HTML5** – Structure  
 - **CSS3** – Styling  
 - **Bootstrap 5** – Layout & Components  
-- **JavaScript ** – Form validation & interactivity 
+- **JavaScript** – Form validation & interactivity 
